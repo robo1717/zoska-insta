@@ -1,9 +1,15 @@
+// src/app/gdpr/page.tsx
+
+
 import Typography from "@mui/material/Typography";
 
+export const metadata = { title: "GDPR | ZoškaSnap" };
 
-export default function GDPR() {
+export default function Gdpr() {
+
   return (
-    <Typography> Stranka na GDPR </Typography>
+
+      <Typography> GDPR </Typography>
 
   );
 }

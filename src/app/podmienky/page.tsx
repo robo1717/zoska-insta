@@ -1,9 +1,15 @@
+// src/app/podmienky/page.tsx
+
+
 import Typography from "@mui/material/Typography";
 
+export const metadata = { title: "Podmienky | ZoškaSnap" };
 
-export default function TermsConditions() {
+export default function Conditions() {
+
   return (
-    <Typography> Podmienky pouzivania tohto webu </Typography>
+
+      <Typography> Podmienky </Typography>
 
   );
 }
