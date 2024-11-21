@@ -1,15 +1,14 @@
-// src/app/profil/page.tsx
+import React from 'react';
+import SimpleBottomNavigation from '../../components/NavBar'; // Adjust the path as needed
 
-
-import Typography from "@mui/material/Typography";
-
-export const metadata = { title: "Zoznam profilov | ZoškaSnap" };
-
-export default function ProfileList() {
-
+const Profiles = () => {
   return (
-
-      <Typography> Zoznam profilov </Typography>
-
+    <div>
+      <h1>Zoznam profilov</h1>
+      {/* Other content goes here */}
+      <SimpleBottomNavigation />
+    </div>
   );
-}
+};
+
+export default Profiles;

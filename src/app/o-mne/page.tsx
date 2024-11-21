@@ -1,15 +1,14 @@
-// src/app/o-mne/page.tsx
+import React from 'react';
+import SimpleBottomNavigation from '../../components/NavBar'; // Adjust the path as needed
 
-
-import Typography from "@mui/material/Typography";
-
-export const metadata = { title: "O mne | ZoškaSnap" };
-
-export default function AboutMe() {
-
+const AboutMe = () => {
   return (
-
-      <Typography> O mne </Typography>
-
+    <div>
+      <h1>O nás</h1>
+      {/* Other content goes here */}
+      <SimpleBottomNavigation />
+    </div>
   );
-}
+};
+
+export default AboutMe;
